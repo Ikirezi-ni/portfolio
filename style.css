@@ -1,0 +1,58 @@
+
+*{margin: 0px;
+padding: opx;}
+
+image {border-radius: 10px;}
+
+
+nav{background-color: bisque;
+padding: 20px; text-align: center;
+position: fixed;
+width: 100%;top: 0px;}
+
+a{text-decoration: none;
+margin-left: 50px;}
+
+a:hover{
+    background-color: cadetblue;
+    color: chocolate;
+    padding: 4px;
+}
+a:visited{background-color: black;
+color: rgb(29, 196, 10);
+}
+
+#about{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+section{margin-left: 15%;
+background-color: rgb(198, 193, 196);
+width: 700px;
+box-shadow: 10px 10px 10px rgb(222, 202, 241);border-radius: 10px;
+margin-right: 700px;
+padding-left: 20px;}
+
+
+footer{margin-left: 15%;
+background-color: rgb(198, 193, 196);
+width: 500px;
+box-shadow: 10px 10px 10px rgb(198, 158, 234);border-radius: 10px;margin-left: 100px;margin-right: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+
+#Skills,#hobbies,#Experience {width: 30%;}
+#Experience,#hobbies {margin-left: 800px;}
+#Experience{height: 150px;width: 200px;margin-left: 900px;}
+#about{width: 400px;}
+
+.Contact img {
+width: 30px;
+height: 30px;
+border-radius: 30%;
+}
